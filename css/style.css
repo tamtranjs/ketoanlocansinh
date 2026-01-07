@@ -502,7 +502,7 @@ form label.error { display: none !important; }
 .topbar { padding: 6px 0; color: #535457; background: #fff; border-bottom: 1px solid rgba(0, 0, 0, 0.06); font-size: 13px; line-height: 1; }
 .topbar .top-aside > p { margin: 0 10px 0 0; }
 .topbar .top-aside > * { float: left; }
-.topbar .top-left { float: left; max-width: 44%; }
+.topbar .top-left { float: left }
 .topbar .top-right { float: right; max-width: 55%; }
 .topbar .top-contact .fa { border: 0 none; width: auto; height: auto; line-height: 27px; }
 .topbar .top-contact span { font-size: 1.1em; line-height: 30px; }
@@ -558,7 +558,7 @@ form label.error { display: none !important; }
 .header-s1 .navbar { padding: 0; }
 .header-s1 .navbar-nav > li > a { padding-top: 26px; padding-bottom: 26px; }
 .header-s1 .navbar-nav > li.quote-btn { margin-top: 12px; }
-.header-s1 .navbar-brand { margin-top: 15px; margin-bottom: 15px; }
+.header-s1 .navbar-brand { margin-top: 10px; margin-bottom: 0; }
 .header-s1 .navbar-collapse { margin-right: -15px; float: right; width: auto; }
 .header-s1.is-transparent { color: #fff; }
 .header-s1.is-transparent:after { position: absolute; content: ''; display: block; top: -200px; left: 0; right: 0; height: 375px; opacity: .5; background: linear-gradient(to bottom, black 0%, transparent 100%); }
