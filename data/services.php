@@ -34,7 +34,9 @@ $services = [
     'slug' => 'lam-bao-cao-thue',
     'desc' => 'Lập và nộp các loại báo cáo thuế định kỳ theo đúng quy định, đảm bảo số liệu chính xác, kịp thời, hạn chế rủi ro vi phạm và các khoản phạt phát sinh.',
     'image' => 'image/photo-sm-b.jpg',
-    'link' => 'dich-vu-chi-tiet.php?service=lam-bao-cao-thue'
+    'link' => 'dich-vu-chi-tiet.php?service=lam-bao-cao-thue',
+    'lead' => 'Làm báo cáo thuế',
+    'content' => '',
   ],
   [
     'title' => 'Báo cáo tài chính – tư vấn kế toán tài chính',

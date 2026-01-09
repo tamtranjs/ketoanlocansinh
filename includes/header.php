@@ -59,16 +59,16 @@
 								<li><a href="index-static.html">Home - Image</a></li>
 							</ul> -->
 					</li>
-					<li class="dropdown"><a href="ve-chung-toi.php">Về Chúng Tôi</b></a>
+					<li class="dropdown"><a href="ve-chung-toi">Về Chúng Tôi</b></a>
 
 					</li>
 					<li class="dropdown">
-						<a href="dich-vu.php" class="dropdown-toggle">Dịch Vụ </a>
+						<a href="dich-vu" class="dropdown-toggle">Dịch Vụ </a>
 
 					</li>
 					<!-- <li><a href="testimonial.html">Testimonial</a></li> -->
 					<!-- <li><a href="news.html">News</a></li> -->
-					<li class="quote-btn"><a class="btn" href="lien-he.php">Liên Hệ</a></li>
+					<li class="quote-btn"><a class="btn" href="lien-he">Liên Hệ</a></li>
 				</ul>
 			</nav>
 			<!-- #end MainNav -->

@@ -22,17 +22,10 @@
           <div class="wgs wgs-footer wgs-menu">
             <h5 class="wgs-title">Our Services</h5>
             <div class="wgs-content">
-              <!-- <ul class="menu">
-                <li><a href="#">Advisory</a></li>
-                <li><a href="#">Audit</a></li>
-                <li><a href="#">Consultent</a></li>
-                <li><a href="#">Assurance</a></li>
-                <li><a href="#">Funds</a></li>
-              </ul> -->
               <ul class="menu">
                 <?php foreach ($services as $service): ?>
                   <li>
-                    <a href="<?= $service['link'] ?>">
+                    <a href="<?= $service['slug'] ?>">
                       <?= $service['title'] ?>
                     </a>
                   </li>
@@ -49,9 +42,9 @@
             <div class="wgs-content">
               <ul class="menu">
                 <li><a href="/">Trang Chủ</a></li>
-                <li><a href="/ve-chung-toi.php">Về Chúng Tôi</a></li>
-                <li><a href="/dich-vu.php">Dịch Vụ</a></li>
-                <li><a href="/lien-he.php">Liên Hệ</a></li>
+                <li><a href="/ve-chung-toi">Về Chúng Tôi</a></li>
+                <li><a href="/dich-vu">Dịch Vụ</a></li>
+                <li><a href="/lien-he">Liên Hệ</a></li>
 
               </ul>
             </div>

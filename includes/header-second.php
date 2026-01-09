@@ -37,8 +37,8 @@ function isActive($slug, $current)
 		<div class="container">
 			<!-- Logo -->
 			<a class="navbar-brand" href="./">
-				<img class="logo logo-dark" alt="" src="image/common/logo.png" srcset="image/common/logo.png 2x">
-				<img class="logo logo-light" alt="" src="image/common/logo.png" srcset="image/common/logo.png 2x">
+				<img class="logo logo-dark" alt="" src="/image/common/logo.png" srcset="/image/common/logo.png 2x">
+				<img class="logo logo-light" alt="" src="/image/common/logo.png" srcset="/image/common/logo.png 2x">
 			</a>
 			<!-- #end Logo -->
 			<div class="navbar-header">
@@ -60,17 +60,17 @@ function isActive($slug, $current)
 					</li>
 
 					<li class="dropdown <?= isActive('about', $page['slug']) ?>">
-						<a href="ve-chung-toi.php">Về Chúng Tôi</a>
+						<a href="/ve-chung-toi">Về Chúng Tôi</a>
 					</li>
 
 					<li class="dropdown <?= isActive('service', $page['slug']) ?>">
-						<a href="dich-vu.php">Dịch Vụ</a>
+						<a href="/dich-vu">Dịch Vụ</a>
 					</li>
 
 
 					<!-- <li><a href="testimonial.html">Testimonial</a></li> -->
 					<!-- <li><a href="news.html">News</a></li> -->
-					<li class="quote-btn"><a class="btn" href="lien-he.php">Liên Hệ</a></li>
+					<li class="quote-btn"><a class="btn" href="/lien-he">Liên Hệ</a></li>
 				</ul>
 			</nav>
 			<!-- #end MainNav -->
@@ -97,7 +97,7 @@ function isActive($slug, $current)
 			</div>
 		</div>
 		<div class="banner-bg imagebg">
-			<img src="image/banner-inside-a.jpg" alt="" />
+			<img src="/image/banner-inside-a.jpg" alt="" />
 		</div>
 	</div>
 	<!-- #end Banner/Static -->

@@ -6,7 +6,7 @@
         <ul>
           <?php foreach ($services as $service): ?>
             <li class="<?= ($currentService ?? '') === $service['slug'] ? 'active' : '' ?>">
-              <a href="<?= $service['link'] ?>">
+              <a href="<?= $service['slug'] ?>">
                 <?= $service['title'] ?>
               </a>
             </li>
