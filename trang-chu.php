@@ -28,7 +28,7 @@
 						<p>Mục tiêu của Lộc An Sinh là kết hợp kiến thức chuyên môn, kinh nghiệm thực tiễn và sự am hiểu môi trường
 							kinh doanh tại Việt Nam để mang đến các giải pháp kế toán – thuế chính xác, minh bạch và bền vững cho
 							doanh nghiệp.</p>
-						<a class="btn-link link-arrow" href="about-us.html">Tìm hiểu thêm về chúng tôi</a>
+						<a class="btn-link link-arrow" href="/ve-chung-toi">Tìm hiểu thêm về chúng tôi</a>
 					</div>
 					<div class="col-sm-4 res-s-bttm">
 						<img src="image/photo-in-a.jpg" alt="">
@@ -64,64 +64,10 @@
 				</div>
 
 				<!-- Feature Row for Service @style1 (feature-s1) @style2 (feature-s2)-->
-				<div class="feature-row feature-service-row feature-s3 hover-fill row">
-					<div class="col-md-3 col-sm-6 col-xs-6 even">
-						<!-- featured box -->
-						<a href="service-single.html">
-							<div class="feature boxed bg-primary">
-								<div class="fbox-content">
-									<div class="icon-box size-lg"><em class="fa fa-superpowers"></em></div>
-									<h3>Phân tích kinh doanh</h3>
-									<p>Chúng tôi hỗ trợ phân tích dữ liệu tài chính và hoạt động doanh nghiệp, giúp đánh giá hiệu quả kinh
-										doanh, kiểm soát chi phí và hỗ trợ nhà quản lý đưa ra quyết định chính xác.</p>
-								</div>
-							</div>
-						</a>
-						<!-- #end -->
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6 odd">
-						<!-- featured box -->
-						<a href="service-single-alter.html">
-							<div class="feature boxed bg-primary-alt">
-								<div class="fbox-content">
-									<div class="icon-box size-lg"><em class="fa fa-signing"></em></div>
-									<h3>Tư vấn chuyên nghiệp</h3>
-									<p>Cung cấp dịch vụ tư vấn kế toán và thuế toàn diện, giúp doanh nghiệp tuân thủ pháp luật, hạn chế
-										rủi ro tài chính và xây dựng chiến lược phát triển bền vững.</p>
-								</div>
-							</div>
-						</a>
-						<!-- #end -->
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6 even">
-						<!-- featured box -->
-						<a href="service-single.html">
-							<div class="feature boxed bg-primary">
-								<div class="fbox-content">
-									<div class="icon-box size-lg"><em class="fa fa-dollar"></em></div>
-									<h3>Quỹ đầu tư</h3>
-									<p>Tư vấn và hỗ trợ quản lý các khoản đầu tư tài chính, giúp doanh nghiệp và cá nhân phân bổ nguồn vốn
-										hợp lý, tối ưu lợi nhuận và kiểm soát rủi ro hiệu quả.</p>
-								</div>
-							</div>
-						</a>
-						<!-- #end -->
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6 odd">
-						<!-- featured box -->
-						<a href="service-single-alter.html">
-							<div class="feature boxed bg-primary-alt">
-								<div class="fbox-content">
-									<div class="icon-box size-lg"><em class="fa fa-check-square-o"></em></div>
-									<h3>Kiểm toán &amp; đảm bảo</h3>
-									<p>Thực hiện dịch vụ kiểm toán và đảm bảo độc lập, giúp doanh nghiệp minh bạch báo cáo tài chính, nâng
-										cao uy tín và đáp ứng yêu cầu của cơ quan quản lý.</p>
-								</div>
-							</div>
-						</a>
-						<!-- #end -->
-					</div>
-				</div>
+				<?php
+				include 'data/services.php';
+				include 'components/core-service.php';
+				?>
 				<!-- Service Row #end -->
 
 			</div>
@@ -191,7 +137,7 @@
 						<h2 class="heading-md-lead">Bạn cần liên hệ tư vấn?</h2>
 						<p>Chúng tôi luôn sẵn sàng hỗ trợ. Hãy gửi email cho chúng tôi hoặc liên hệ trực tiếp với chuyên gia qua số
 							+0982.000.748 hoặc +0983.567.805</p>
-						<a class="btn btn-primary" href="#">Liên hệ với chúng tôi</a>
+						<a class="btn btn-primary" href="/lien-he">Liên hệ với chúng tôi</a>
 					</div>
 
 				</div>

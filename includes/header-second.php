@@ -36,7 +36,7 @@ function isActive($slug, $current)
 	<div class="navbar navbar-primary">
 		<div class="container">
 			<!-- Logo -->
-			<a class="navbar-brand" href="./">
+			<a class="navbar-brand" href="/">
 				<img class="logo logo-dark" alt="" src="/image/common/logo.png" srcset="/image/common/logo.png 2x">
 				<img class="logo logo-light" alt="" src="/image/common/logo.png" srcset="/image/common/logo.png 2x">
 			</a>
@@ -56,7 +56,7 @@ function isActive($slug, $current)
 			<nav class="navbar-collapse collapse" id="mainnav">
 				<ul class="nav navbar-nav">
 					<li class="dropdown <?= isActive('home', $page['slug']) ?>">
-						<a href="./">Trang Chủ</a>
+						<a href="/">Trang Chủ</a>
 					</li>
 
 					<li class="dropdown <?= isActive('about', $page['slug']) ?>">

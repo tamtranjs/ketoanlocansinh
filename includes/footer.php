@@ -25,7 +25,7 @@
               <ul class="menu">
                 <?php foreach ($services as $service): ?>
                   <li>
-                    <a href="<?= $service['slug'] ?>">
+                    <a href="/dich-vu/<?= $service['slug'] ?>">
                       <?= $service['title'] ?>
                     </a>
                   </li>

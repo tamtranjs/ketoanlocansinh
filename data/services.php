@@ -4,8 +4,8 @@ $services = [
     'title' => 'Kế toán thuế trọn gói',
     'slug' => 'ke-toan-thue-tron-goi',
     'desc' => 'Thực hiện toàn bộ công việc kế toán và thuế cho doanh nghiệp, từ ghi nhận sổ sách, kê khai thuế đến quyết toán cuối năm, giúp doanh nghiệp an tâm vận hành và tiết kiệm chi phí nhân sự.',
+    'icon' => 'fa-superpowers',
     'image' => 'image/photo-sm-a.jpg',
-    'link' => 'dich-vu-chi-tiet.php?service=ke-toan-thue-tron-goi',
     'lead' => 'Giải pháp kế toán – thuế toàn diện giúp doanh nghiệp an tâm vận hành.',
     'content' => '
       <h3>Dịch vụ bao gồm</h3>
@@ -33,8 +33,8 @@ $services = [
     'title' => 'Làm báo cáo thuế',
     'slug' => 'lam-bao-cao-thue',
     'desc' => 'Lập và nộp các loại báo cáo thuế định kỳ theo đúng quy định, đảm bảo số liệu chính xác, kịp thời, hạn chế rủi ro vi phạm và các khoản phạt phát sinh.',
+    'icon' => 'fa-signing',
     'image' => 'image/photo-sm-b.jpg',
-    'link' => 'dich-vu-chi-tiet.php?service=lam-bao-cao-thue',
     'lead' => 'Làm báo cáo thuế',
     'content' => '',
   ],
@@ -42,21 +42,20 @@ $services = [
     'title' => 'Báo cáo tài chính – tư vấn kế toán tài chính',
     'slug' => 'bao-cao-tai-chinh-tu-van-ke-toan',
     'desc' => 'Lập báo cáo tài chính cuối năm, đồng thời tư vấn giải pháp quản lý và tối ưu dòng tiền, hỗ trợ doanh nghiệp ra quyết định tài chính hiệu quả.',
+    'icon' => 'fa-dollar',
     'image' => 'image/photo-sm-c.jpg',
-    'link' => 'dich-vu-chi-tiet.php?service=bao-cao-tai-chinh-tu-van-ke-toan'
   ],
   [
     'title' => 'Đăng ký giấy phép kinh doanh – chứng nhận đầu tư',
     'slug' => 'dang-ky-giay-phep-kinh-doanh-chung-nhan-dau-tu',
     'desc' => 'Tư vấn và thực hiện thủ tục thành lập doanh nghiệp, thay đổi giấy phép kinh doanh, đăng ký chứng nhận đầu tư nhanh chóng, đúng pháp luật.',
+    'icon' => 'fa-check-square-o',
     'image' => 'image/photo-sm-d.jpg',
-    'link' => 'dich-vu-chi-tiet.php?service=dang-ky-giay-phep-kinh-doanh-chung-nhan-dau-tu'
   ],
   [
     'title' => 'Cung cấp giải pháp kế toán số',
     'slug' => 'giai-phap-ke-toan-so',
     'desc' => 'Cung cấp hóa đơn điện tử, chữ ký số, phần mềm kế toán và phần mềm bảo hiểm xã hội, giúp doanh nghiệp quản lý dữ liệu thuận tiện, an toàn và hiệu quả.',
     'image' => 'image/photo-sm-e.jpg',
-    'link' => 'dich-vu-chi-tiet.php?service=giai-phap-ke-toan-so'
   ]
 ];
