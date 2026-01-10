@@ -2,10 +2,8 @@
 $page = [
 	'title' => 'Về Chúng Tôi',
 	'slug' => 'about',
-	// 'banner' => 'image/banner-about.jpg'
+	'banner' => 'image/common/about-us.png'
 ];
-
-// include 'header-second.php';
 ?>
 
 

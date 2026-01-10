@@ -1,4 +1,9 @@
 <?php
+$bannerImage = $page['banner'] ?? 'image/common/service.png';
+$pageTitle = $page['title'] ?? '';
+?>
+
+<?php
 function isActive($slug, $current)
 {
 	return $slug === $current ? 'active' : '';
@@ -97,7 +102,7 @@ function isActive($slug, $current)
 			</div>
 		</div>
 		<div class="banner-bg imagebg">
-			<img src="/image/banner-inside-a.jpg" alt="" />
+			<img src="/<?= $bannerImage ?>" alt="<?= $pageTitle ?>" />
 		</div>
 	</div>
 	<!-- #end Banner/Static -->

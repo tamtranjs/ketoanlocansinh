@@ -2,7 +2,7 @@
 $page = [
 	'title' => 'Dịch Vụ',
 	'slug' => 'service',
-	'banner' => 'image/banner-service.jpg'
+	'banner' => 'image/common/service.png'
 ];
 
 // include 'header-second.php';

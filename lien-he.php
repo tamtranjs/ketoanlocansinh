@@ -1,3 +1,11 @@
+<?php
+$page = [
+	'slug' => 'contact',
+	'title' => 'Liên Hệ',
+	'banner' => 'image/common/contact.png'
+];
+?>
+
 <!DOCTYPE html>
 <html lang="zxx">
 
