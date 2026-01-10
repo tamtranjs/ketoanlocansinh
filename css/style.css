@@ -1550,3 +1550,49 @@ div[class*='filtered-menu'].style-v2 li:last-child { padding-right: 0; }
 .demo-sample-icon hr { margin-top: 25px; margin-bottom: 25px; }
 
 @media only screen and (max-width: 479px) { .page-typo .col-md-3.col-sm-6.col-xs-6 { width: 100%; } }
+
+/* Floating contact buttons */
+.floating-contact {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.float-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: all 0.25s ease;
+  text-decoration: none;
+}
+
+/* Zalo */
+.float-btn.zalo {
+  background: #0068ff;
+}
+
+.float-btn.zalo img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Phone */
+.float-btn.phone {
+  background: #28a745;
+  color: #fff;
+  font-size: 22px;
+}
+
+/* Hover effect */
+.float-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}

@@ -21,6 +21,8 @@ $page = [
 	<link id="style-css" rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
+<?php include 'components/floating-contact.php' ?>
+
 <body class="site-body style-v1">
 	<?php include 'includes/header-second.php' ?>
 	<!-- Content Section -->

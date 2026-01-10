@@ -6,9 +6,11 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="icon" href="image/favicon.png" type="image/png" sizes="16x16">
-	<link rel="stylesheet" type="text/css" href="css/vendor.bundle.css">
-	<link id="style-css" rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/vendor.bundle.css">
+	<link id="style-css" rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
+
+<?php include 'components/floating-contact.php' ?>
 
 <body class="site-body style-v1">
 	<?php include 'includes/header.php' ?>
@@ -183,9 +185,9 @@
 	<!-- Preloader End -->
 
 	<!-- JavaScript Bundle -->
-	<script src="js/jquery.bundle.js"></script>
+	<script src="/js/jquery.bundle.js"></script>
 	<!-- Theme Script init() -->
-	<script src="js/script.js"></script>
+	<script src="/js/script.js"></script>
 	<!-- End script -->
 </body>
 
