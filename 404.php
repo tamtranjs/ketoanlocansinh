@@ -5,7 +5,7 @@
   <title><?= $currentService['title'] ?> | Dịch vụ kế toán</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="image/favicon.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="image/common/logo.png" type="image/png" sizes="16x16">
   <link rel="stylesheet" type="text/css" href="/css/vendor.bundle.css">
   <link id="style-css" rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
