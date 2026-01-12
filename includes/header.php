@@ -33,7 +33,7 @@
 			<a class="navbar-brand" href="./">
 				<!-- <img class="logo logo-dark" alt="" src="image/common/logo.svg" srcset="image/common/logo.svg 2x"> -->
 				<!-- <img class="logo logo-light" alt="" src="image/logo-light.png" srcset="image/logo-light2x.png 2x"> -->
-				<img class="logo logo-light" alt="" src="image/common/logo3.png" srcset="image/common/logo3.png">
+				<img class="logo logo-light" alt="" src="/image/common/logo3.png" srcset="/image/common/logo3.png">
 			</a>
 			<!-- #end Logo -->
 			<div class="navbar-header">

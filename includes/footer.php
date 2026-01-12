@@ -10,7 +10,7 @@
           <!-- Each Widget -->
           <div class="wgs wgs-footer wgs-text">
             <div class="wgs-content">
-              <p><img style="max-width: 50%" src="image/common/logo3.png" alt=""></p>
+              <p><img style="max-width: 50%" src="/image/common/logo3.png" alt=""></p>
               <p>Hãy liên hệ với Công ty Kế toán – Thuế Lộc An Sinh để được tư vấn chi tiết và cùng chúng tôi xây dựng
                 giải pháp tài chính an toàn, minh bạch và bền vững cho doanh nghiệp của bạn.</p>
             </div>

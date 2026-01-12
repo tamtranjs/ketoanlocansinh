@@ -46,14 +46,14 @@ $page = [
 							quản lý tài chính minh bạch, an tâm tập trung phát triển hoạt động kinh doanh cốt lõi.</p>
 					</div>
 					<div class="col-sm-6">
-						<img src="image/photo-pt-a.jpg" alt="">
+						<img src="/image/gallery/about-us1.png" alt="">
 						<div class="gaps size-md"></div>
 						<div class="row">
 							<div class="col-xs-6">
-								<img src="image/photo-pt-b.jpg" alt="">
+								<img src="/image/gallery/about-us2.png" alt="">
 							</div>
 							<div class="col-xs-6">
-								<img src="image/photo-pt-c.jpg" alt="">
+								<img src="/image/gallery/about-us3.png" alt="">
 							</div>
 						</div>
 					</div>
@@ -63,24 +63,25 @@ $page = [
 					<div class="gallery gallery-col4 gallery-filled gallery-lightbox hover-zoom">
 						<ul class="gallery-list">
 							<li>
-								<a href="image/gallery/g1-lg.jpg">
-									<div class="gallery-item"><img src="image/gallery/g1.jpg" alt="Photo Title"></div>
+								<a href="/image/gallery/about-us4.png">
+									<div class="gallery-item"><img src="/image/gallery/about-us4.png" alt="Photo Title"></div>
 								</a>
 							</li>
 							<li>
-								<a href="image/gallery/g2-lg.jpg">
-									<div class="gallery-item"><img src="image/gallery/g2.jpg" alt="@by Author" title="Name of Photo">
+								<a href="/image/gallery/about-us5.png">
+									<div class="gallery-item"><img src="/image/gallery/about-us5.png" alt="@by Author"
+											title="Name of Photo">
 									</div>
 								</a>
 							</li>
 							<li>
-								<a href="image/gallery/g3-lg.jpg">
-									<div class="gallery-item"><img src="image/gallery/g3.jpg" alt="Name of Photo"></div>
+								<a href="/image/gallery/about-us6.png">
+									<div class="gallery-item"><img src="/image/gallery/about-us6.png" alt="Name of Photo"></div>
 								</a>
 							</li>
 							<li>
-								<a href="image/gallery/g4-lg.jpg">
-									<div class="gallery-item"><img src="image/gallery/g4.jpg" alt="Name of Photo"></div>
+								<a href="/image/gallery/about-us7.png">
+									<div class="gallery-item"><img src="/image/gallery/about-us7.png" alt="Name of Photo"></div>
 								</a>
 							</li>
 						</ul>
@@ -93,23 +94,7 @@ $page = [
 	</div>
 	<!-- End Section -->
 	<!-- Client logo -->
-	<div class="section section-logos section-pad-sm bg-light bdr-top">
-		<div class="container">
-			<div class="content row">
-
-				<div class="owl-carousel loop logo-carousel style-v2">
-					<div class="logo-item"><img alt="" width="190" height="82" src="image/cl-logo1-w.png"></div>
-					<div class="logo-item"><img alt="" width="190" height="82" src="image/cl-logo2-w.png"></div>
-					<div class="logo-item"><img alt="" width="190" height="82" src="image/cl-logo3-w.png"></div>
-					<div class="logo-item"><img alt="" width="190" height="82" src="image/cl-logo4-w.png"></div>
-					<div class="logo-item"><img alt="" width="190" height="82" src="image/cl-logo5-w.png"></div>
-					<div class="logo-item"><img alt="" width="190" height="82" src="image/cl-logo6-w.png"></div>
-				</div>
-
-			</div>
-		</div>
-	</div>
-	<!-- End Section -->
+	<?php include 'components/our-customer.php' ?>;
 
 	<!-- Footer Widget-->
 	<?php include 'includes/footer.php' ?>

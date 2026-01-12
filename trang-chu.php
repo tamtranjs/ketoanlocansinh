@@ -33,14 +33,14 @@
 						<a class="btn-link link-arrow" href="/ve-chung-toi">Tìm hiểu thêm về chúng tôi</a>
 					</div>
 					<div class="col-sm-4 res-s-bttm">
-						<img src="image/photo-in-a.jpg" alt="">
+						<img src="image/gallery/baohiem.png" alt="">
 						<span class="gaps size-sm"></span>
 						<h4 class="heading-md">Tư vấn bảo hiểm</h4>
 						<p>Hỗ trợ doanh nghiệp và cá nhân lựa chọn các giải pháp bảo hiểm phù hợp, giúp quản lý rủi ro tài chính,
 							đảm bảo quyền lợi và tuân thủ các quy định liên quan.</p>
 					</div>
 					<div class="col-sm-4">
-						<img src="image/photo-in-b.jpg" alt="">
+						<img src="image/gallery/taichinh.png" alt="">
 						<span class="gaps size-sm"></span>
 						<h4 class="heading-md">Tư vấn tài chính</h4>
 						<p>Cung cấp giải pháp tư vấn tài chính toàn diện, hỗ trợ lập kế hoạch, quản lý dòng tiền và tối ưu hiệu quả
@@ -149,23 +149,7 @@
 	<!-- End Section -->
 
 	<!-- Client logo -->
-	<div class="section section-logos section-pad bg-light">
-		<div class="container">
-			<div class="content row">
-				<h2 class="heading-md-lead center">Khách hàng của chúng tôi</h2>
-				<div class="gaps size-sm"></div>
-				<div class="owl-carousel loop logo-carousel style-v2">
-					<div class="logo-item"><img alt="" width="190" height="82" src="image/cl-logo1-w.png"></div>
-					<div class="logo-item"><img alt="" width="190" height="82" src="image/cl-logo2-w.png"></div>
-					<div class="logo-item"><img alt="" width="190" height="82" src="image/cl-logo3-w.png"></div>
-					<div class="logo-item"><img alt="" width="190" height="82" src="image/cl-logo4-w.png"></div>
-					<div class="logo-item"><img alt="" width="190" height="82" src="image/cl-logo5-w.png"></div>
-					<div class="logo-item"><img alt="" width="190" height="82" src="image/cl-logo6-w.png"></div>
-				</div>
-
-			</div>
-		</div>
-	</div>
+	<?php include 'components/our-customer.php' ?>;
 	<!-- End Section -->
 
 	<!-- Footer -->

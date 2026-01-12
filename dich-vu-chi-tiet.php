@@ -55,7 +55,7 @@ if (!$currentService) {
 						<?php include 'components/service-accordion.php'; ?>
 
 						<!-- End Acorrdion -->
-						<img src="/image/photo-lg-a.jpg" alt="" class="aligncenter">
+						<img src="<?= $currentService['image'] ?>" alt="" class="aligncenter">
 						<!-- <h3 class="color-secondary">Areas of Expertise</h3>
 						<p>Bring to the table dolor sit amet enim ad minim veniam, quis nostrud exercation ullamco laboris nisi ution aliquip exon commodo conquat. Duis aute irure dolor nostrud ullamco. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						<p>If you have any questions regarding our services, please <strong>contact us</strong> or call at <strong>800 1234 5677</strong>.</p> -->

@@ -5,7 +5,7 @@ $services = [
     'slug' => 'ke-toan-thue-tron-goi',
     'desc' => 'Thực hiện toàn bộ công việc kế toán và thuế cho doanh nghiệp, từ ghi nhận sổ sách, kê khai thuế đến quyết toán cuối năm, giúp doanh nghiệp an tâm vận hành và tiết kiệm chi phí nhân sự.',
     'icon' => 'fa-superpowers',
-    'image' => 'image/photo-sm-a.jpg',
+    'image' => '/image/gallery/tax.png',
     'lead' => 'Giải pháp kế toán – thuế toàn diện giúp doanh nghiệp an tâm vận hành.',
     'content' => '
       <h3>Dịch vụ bao gồm</h3>
@@ -35,7 +35,7 @@ $services = [
     'slug' => 'lam-bao-cao-thue',
     'desc' => 'Lập và nộp các loại báo cáo thuế định kỳ theo đúng quy định, đảm bảo số liệu chính xác, kịp thời, hạn chế rủi ro vi phạm và các khoản phạt phát sinh.',
     'icon' => 'fa-signing',
-    'image' => 'image/photo-sm-b.jpg',
+    'image' => '/image/gallery/report-year.png',
     'lead' => 'Đảm bảo báo cáo thuế chính xác, đúng hạn và đúng quy định.',
     'content' => '
       <h3>Dịch vụ bao gồm</h3>
@@ -51,7 +51,7 @@ $services = [
     'slug' => 'bao-cao-tai-chinh-tu-van-ke-toan',
     'desc' => 'Lập báo cáo tài chính cuối năm, đồng thời tư vấn giải pháp quản lý và tối ưu dòng tiền, hỗ trợ doanh nghiệp ra quyết định tài chính hiệu quả.',
     'icon' => 'fa-dollar',
-    'image' => 'image/photo-sm-c.jpg',
+    'image' => '/image/gallery/finance-report.png',
     'lead' => 'Minh bạch tài chính – hỗ trợ quyết định kinh doanh chính xác.',
     'content' => '
       <h3>Dịch vụ bao gồm</h3>
@@ -67,7 +67,7 @@ $services = [
     'slug' => 'dang-ky-giay-phep-kinh-doanh-chung-nhan-dau-tu',
     'desc' => 'Tư vấn và thực hiện thủ tục thành lập doanh nghiệp, thay đổi giấy phép kinh doanh, đăng ký chứng nhận đầu tư nhanh chóng, đúng pháp luật.',
     'icon' => 'fa-check-square-o',
-    'image' => 'image/photo-sm-d.jpg',
+    'image' => '/image/gallery/register.png',
     'lead' => 'Thủ tục pháp lý nhanh gọn, đúng quy định.',
     'content' => '
       <h3>Dịch vụ bao gồm</h3>
@@ -83,7 +83,7 @@ $services = [
     'slug' => 'giai-phap-ke-toan-so',
     'desc' => 'Cung cấp hóa đơn điện tử, chữ ký số, phần mềm kế toán và phần mềm bảo hiểm xã hội, giúp doanh nghiệp quản lý dữ liệu thuận tiện, an toàn và hiệu quả.',
     'icon' => 'fa-laptop',
-    'image' => 'image/photo-sm-e.jpg',
+    'image' => '/image/gallery/solution.png',
     'lead' => 'Ứng dụng công nghệ giúp quản lý kế toán hiệu quả.',
     'content' => '
       <h3>Dịch vụ bao gồm</h3>

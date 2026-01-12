@@ -2,7 +2,7 @@
   <?php foreach ($services as $index => $service): ?>
     <div class="col-md-4 col-sm-6 <?= $index % 2 === 0 ? 'even' : 'odd' ?> <?= $index % 3 === 0 ? 'first' : '' ?>">
       <div class="feature boxed">
-        <a href="<?= $service['slug'] ?>">
+        <a href="/dich-vu/<?= $service['slug'] ?>">
           <div class="fbox-photo">
             <img src="<?= $service['image'] ?>" alt="<?= $service['title'] ?>">
           </div>
